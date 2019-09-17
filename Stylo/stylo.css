@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+/*Estilo da pagina principal*/
+body {
+	background-color: black;
+}
+
+/*Estilo da tabela*/
+table {
+	border-color: cyan;
+}
+
+
