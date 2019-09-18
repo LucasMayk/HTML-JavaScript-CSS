@@ -1,0 +1,78 @@
+<!DOCTY4PE html>
+<html lang="pt-br">
+<head>
+	<title> JavaScript </title>
+	<meta charset="utf-8">
+	<link href="style/Prog_JavaScript.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="js.png" type="image/x-icon">
+</head>
+<body>
+    <div id="cabecalho">
+    </br>
+        <h1 id="troca"> Voltamos ao Mundo do JavaScript </h1>
+        <center><tt> (Welcome Back) </tt></center>
+    </div>    
+    <div id="menus">
+        <br>
+        <a href="#" class="link_02"> HOME </a>
+        <a href="#" class="link" onclick="alerta()"> APRESENTAÇÃO </a>
+        <a href="#" class="link" onclick="trocar_texto()"> MODIFICAR CABEÇALHO</a>
+        <a href=" " class="link"> VOLTAR CABEÇALHO</a>
+     </div>
+
+     <div id="img_fundo">
+     	<img id="trocar" onclick="trocar_img()" src="img/img_01.jpg" width="100%" title="Click com o mouse">
+     </div>
+     
+     <div id="linha"><center><hr/ color="black" width="1249"></center></div>
+
+     <div id="calcular">
+		<center><table border="0">
+			<tr>
+				<td><h1 class="calc">CALCULADORA DE SOMA</h1></td>
+			</tr>
+			<tr>
+				<td><input type="text" id="campo1" class="caixa" onClick="javascript:this.value=''"></td>
+			</tr>
+			<tr><td></td></tr>
+			<tr><td></td></tr>
+			<tr><td><h1> + </h1></td></tr>
+			<tr><td></td></tr>
+			<tr><td></td></tr>
+			<tr>
+				<td><input type="text" id="campo2" class="caixa" onClick="javascript:this.value=''"></td>
+			</tr>
+			<tr>
+				<td><p id="resposta" class="res"> RESPOSTA </p></td>
+			</tr>
+			<tr>
+				<td><button onclick="Soma()" class="butao"> Soma </button></td>
+			</tr>	
+		</table></center>
+    </div>
+
+     <div id="rodape">
+      <center><table>
+      	<tr><td><p style="color: white;">WhatsApp</p></td></tr>
+      </table></center>
+      <center>(85)98705-5679</center>
+   </div>
+
+   <div id="direito">
+   <hr/>
+      <center>
+        <table>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr>
+               <td><tt>©2019 JavaScript | Todos os Direitos Reservados</tt></td>
+            </tr>
+        </table>
+      </center>
+   </div>
+
+     <script src="js/javaScript.js"></script>
+</body>
+</html>
