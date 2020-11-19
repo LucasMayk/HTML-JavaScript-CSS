@@ -1,0 +1,28 @@
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+h2 {
+	text-align: center;
+}
+
+/*Criando conteúdo através de CSS*/
+.tip::before {
+	content: '\261E';
+	margin-right: 10px;
+}
+
+/*Adicionar estilo a elementos de citação*/
+blockquote::before, blockquote::after {
+	color: #000;
+	font-size: 3em;
+}
+
+blockquote::before {
+	content: '\201C';
+}
+
+blockquote::after {
+	content: '\201D';
+}
