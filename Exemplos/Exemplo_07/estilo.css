@@ -1,0 +1,24 @@
+/*Manipilação de cores com RGBA e GRADIENTES*/
+.container {
+	margin: 0 auto;
+	width: 960px;
+}
+
+figure {
+	position: relative;
+}
+
+img {
+	display: block;
+}
+
+figcaption {
+	background-color: #000;
+	background-color: rgba(0,0,0,0.5);
+	bottom: 5px;
+	color: #FFF;
+	margin: 0 5px;
+	padding: 5px;
+	position: absolute;
+	width: 380px;	
+}
