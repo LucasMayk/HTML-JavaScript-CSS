@@ -10,6 +10,7 @@ h2 {
 
 table {
 	width: 500px;
+	margin: auto;
 }
 
 td {
@@ -34,4 +35,41 @@ td a {
 	padding: 2px 5px;
 	background-color: #385998;
 	text-decoration: none;
+}
+
+* {
+	color: #000 !important; 
+}
+
+table {
+	width: 100%
+}
+
+td {
+	border-color: #000;
+}
+
+a::after {
+	content: '(' attr(href)	')';
+	margin-left: 2px;
+}
+
+.actions {
+	display: none;
+}
+
+.expense::before {
+	content: '-	';
+}
+
+.expense::after	{
+	content: ' - Despesa';
+}
+
+.profit::before	{
+	content: '+	';
+}
+
+.profit::after {
+	content: ' - Receita';
 }
